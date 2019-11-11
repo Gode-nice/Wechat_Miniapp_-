@@ -1,0 +1,30 @@
+<image class="img" src="../../images/shuimo.png"></image>
+<view class="bg">
+<view class="bgs0">
+<view wx:for="{{sentence3}}" wx:for-item="i">
+  <view style="color:{{i.color}}" class='text'>{{i.word}}</view>
+</view>
+</view>
+<view class="bgs1">
+<view wx:for="{{sentence4}}" wx:for-item="i">
+  <view class='text'>{{i}}</view>
+</view>
+</view>
+<view class="bgs2">
+<view wx:for="{{sentence5}}" wx:for-item="i">
+  <view class='text'>{{i}}</view>
+</view>
+</view>
+</view>
+<view bindtap="detail">
+<view class="frame">
+<view class="authorall">「{{dynasty}}」{{author}}</view>
+<view class="sentenceall">
+<view class="sentence">{{sentence0}}</view>
+<view class="sentence">{{sentence1}}</view>
+<view class="sentence">{{sentence2}}</view>
+</view>
+</view>
+</view>
+<view class="tip">"下拉",然后意境新生。</view>
+<!-- <button bindtap="test">yun in </button> -->

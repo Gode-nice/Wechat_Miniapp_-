@@ -1,0 +1,76 @@
+.bg{
+  position: fixed;
+  background: #fff;
+  top: 70rpx;
+  z-index: -1;
+}
+.bgs0{
+  position: fixed;
+  right: 30rpx;
+  font-size: 120rpx;
+  color: rgb(216, 216, 216);
+  font-weight: 1000rpx;
+}
+.bgs1{
+  position: fixed;
+  right: 180rpx;
+  font-size: 120rpx;
+  color: rgb(206, 206, 206);
+  font-weight: 1000rpx;
+}
+.bgs2{
+  position: fixed;
+  right: 320rpx;
+  font-size: 120rpx;
+  color: rgb(236, 236, 236);
+  font-weight: 1000rpx;
+}
+.frame{
+  margin-top: 180rpx;
+  padding-top: 20rpx;
+  margin-left: 15%;
+  margin-right: 15%;
+  box-shadow: 3rpx 3rpx 15rpx #111;
+  background: rgb(87, 87, 87);
+  border-radius: 10rpx;
+  color: #fff;
+}
+.sentence{
+   font-family:'webfont';
+   min-height: 60rpx;
+   min-width: 60rpx;
+    font-size: 50rpx;
+    float: left; 
+    writing-mode: vertical-lr;
+}
+.sentenceall{
+  margin-top: 20rpx;
+  margin-left: 55%;
+  height: 800rpx;
+}
+.authorall{
+  margin-top: 570rpx;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  float: left; 
+  writing-mode: vertical-lr;
+}
+.tip{
+  margin-top: 20rpx;
+  color: #666;
+  text-align: center;
+  font-size: 26rpx; 
+}
+.text{
+  animation:myfirst 5s;
+}
+.img{
+  position: fixed;
+  bottom: -180rpx;
+  width: 100%;
+  z-index: -3;
+}
+@keyframes myfirst
+{
+0%   {color: #333;}
+}

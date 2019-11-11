@@ -1,0 +1,73 @@
+.bg{}
+.head{
+  margin-top: 100rpx;
+  text-align: center;
+}
+.title{
+  font-size: 44rpx;
+}
+.dynasty{
+  font-size: 26rpx;
+}
+.author{
+  font-size: 28rpx;
+}
+.body{
+  margin: 40rpx;
+  line-height: 60rpx;
+  margin-bottom: 100rpx;
+}
+.content{
+  font-size: 38rpx;
+  text-align: center;
+}
+.dv{
+  margin-top: 400rpx;
+  width: 100%;
+  height: 4rpx;
+  background: #666;
+}
+.translation{
+  font-size: 34rpx;
+}
+.shangxi{
+  font-size: 34rpx;
+}
+.remark{
+  font-size: 34rpx;
+}
+.change{
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  font-size: 34rpx;
+  float: left;
+  width: 25%;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  border-top: solid 3rpx;
+}
+.chan{
+  width: 100%;
+  position: fixed;
+  bottom: 0rpx;
+}
+.change:active{
+  background: #333;
+  color: #fff;
+  border-top: solid 3rpx;
+}
+image{
+  text-align: center;
+  width: 60rpx;
+  height: 60rpx;
+}
+.star{
+  padding: 10rpx;
+  background: rgba(15, 15, 15, 0.5);
+  border-radius: 25rpx;
+  position: fixed;
+  left: 50rpx;
+  top: 50rpx;
+  text-align: center;
+}

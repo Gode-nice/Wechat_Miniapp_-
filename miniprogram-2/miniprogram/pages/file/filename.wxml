@@ -1,0 +1,8 @@
+<view class="bg">
+<view>{{author}}的诗歌有：</view>
+<view wx:for="{{list}}" wx:for-item="i">
+<navigator url="detail?name={{i}}">
+  <view class='text'>{{i}}</view>
+  </navigator>
+</view>
+</view>

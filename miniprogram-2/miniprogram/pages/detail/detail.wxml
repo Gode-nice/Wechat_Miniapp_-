@@ -1,0 +1,16 @@
+<view class="bg">
+<view class="head">
+<view class="title">{{title}}</view>
+<view class="dynasty">「{{dynasty}}」</view>
+<view class="author">{{author}}</view>
+</view>
+<view class="body">
+<view wx:for="{{content}}" wx:for-item="i">
+  <view class='content'>{{i}}</view>
+</view>
+<view class="dv"></view>
+<view class="translate">{{translate}}</view>
+</view>
+<view class="jie">“一句”中的部分诗歌暂无翻译、赏析、注解。</view>
+<view class="jie">想看全注解诗歌？快去诗集中找找吧！</view>
+</view>

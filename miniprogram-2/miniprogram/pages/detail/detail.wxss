@@ -1,0 +1,35 @@
+.bg{}
+.head{
+  text-align: center;
+  margin-top: 100rpx;
+}
+.title{
+  font-size: 44rpx;
+}
+.dynasty{
+  font-size: 26rpx;
+}
+.author{
+  font-size: 28rpx;
+}
+.body{
+  margin: 40rpx;
+  line-height: 60rpx;
+}
+.content{
+  font-size: 38rpx;
+  text-align: center;
+}
+.dv{
+  margin-top: 400rpx;
+  width: 100%;
+  height: 4rpx;
+  background: #666;
+}
+.translate{
+  font-size: 34rpx;
+}
+.jie{
+  font-family: serif;
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+/* miniprogram/pages/file/file.wxss */
+.bg{
+  background: #eee;
+}
+.style{
+}
+.text0{
+width: 95%;
+  padding-left: 5%;
+  padding-bottom: 10rpx;
+  padding-top: 10rpx;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  font-size: 30rpx;
+  background: #f6f6f6;
+  font-weight: 100rpx;
+}
+.text1{
+width: 40%;
+  padding-left: 60%;
+  padding-bottom: 10rpx;
+  padding-top: 10rpx;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  background: #fff;
+  font-size: 36rpx;
+  font-weight: 100rpx;
+}

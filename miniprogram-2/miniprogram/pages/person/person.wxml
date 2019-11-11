@@ -1,0 +1,24 @@
+<view class="card">
+<image src="{{avatarUrl}}" class="headimg"></image>
+<button class="name" open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">{{name}}</button>
+</view>
+<view class="card">
+<view bindtap="coll" class="coll">我的收藏</view>
+<view wx:for="{{listt}}" wx:for-item="i">
+<navigator url="../file/detail?name={{i}}">
+  <view class='text'>{{i}}</view>
+  </navigator>
+</view>
+</view>
+<view class="shuoming">
+<view class="center">作品说明</view>
+<view>用于上外贸第十二届计算机应用能力大赛</view>
+<view>功能：</view>
+<view>一句：每次下拉屏幕都将带给您一个新的诗境；动态水墨背景使意境更加浓厚。</view>
+<view>诗集：收集2000首精选诗歌，翻译，解析，赏析通通都有。</view>
+<view>我的：如果你有喜欢的诗，可以加入收藏，以便未来重顾。</view>
+<view>技术采用：小程序云开发</view>
+<view>作者：高得泷、杨慧慈、许蔚。</view>
+</view>
+
+<!-- <view class="test">有诗</view> -->

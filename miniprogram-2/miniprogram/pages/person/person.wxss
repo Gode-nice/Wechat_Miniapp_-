@@ -1,0 +1,40 @@
+/* miniprogram/pages/person/person.wxss */
+.headimg{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 150rpx;
+  margin-left: 70rpx;
+  margin-top: 40rpx;
+  float: left;
+  margin-bottom: 40rpx;
+}
+.name{
+  padding-left: 100rpx;
+  text-align: left;
+  margin-top: 100rpx;
+}
+.card{
+border-bottom-right-radius: 30rpx;
+border-bottom-left-radius: 30rpx;
+box-shadow: 5rpx 5rpx 10rpx #666;
+padding-bottom: 40rpx;
+}
+.coll{
+  margin-top: 40rpx;
+  text-align: center;
+  padding-bottom: 10rpx;
+  font-size: 40rpx;
+}
+.text{
+  padding-left: 50rpx;
+  margin-bottom: 5rpx;
+  background: #f0f0f0;
+  font-size: 38rpx;
+}
+.shuoming{
+  color: #555;
+  margin-top: 200rpx;
+}
+.center{
+  text-align: center;
+}

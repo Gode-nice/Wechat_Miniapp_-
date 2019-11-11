@@ -1,0 +1,12 @@
+<view class="bg">
+<block wx:for-items="{{list}}"  wx:key="{{item.id}}">
+  <view  class='style' id='{{item.id}}' >
+  <view class='text0'>「{{item.name}}」诗人:</view>
+          <view wx:for="{{item.writer}}" wx:for-item="i">
+            <navigator url="filename?name={{i}}">
+              <view class='text1'>{{i}}</view>
+            </navigator>
+          </view>
+  </view>
+</block>
+</view>

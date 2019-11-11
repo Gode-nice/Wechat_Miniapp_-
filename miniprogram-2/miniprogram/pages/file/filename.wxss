@@ -1,0 +1,16 @@
+.bg{
+  background: #fff;
+}
+.style{
+}
+.text{
+width: 80%;
+  padding-left: 20%;
+  padding-bottom: 10rpx;
+  padding-top: 10rpx;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  background: #f7f7f7;
+  font-size: 36rpx;
+  font-weight: 100rpx;
+}
